@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: sans-serif;
+}
+
+#nav-bar{
+    position:sticky;
+    top:0;
+    z-index: 10;
+    
+}
+.navbar{
+    background-image: linear-gradient(to right, #fffeff, #fbfffe);   
+}
+.nav-logo{
+    display:inline-block;
+  }
+  .nav-logo .fab{
+    font-size:25px;
+    color:rgb(158, 27, 158);
+  }
+  .nav-logo .letter{
+    font-weight:900;
+    font-family:arial;
+    
+  }
+
+.navbar-brand .fas{
+    font-size: 30px;
+    padding-left: 20px;
+    color:black;
+}
+.navbar-brand h1{
+    font-size:28px;
+    color:rgb(250, 248, 249);
+    display:inline-block
+}
+.navbar-nav li{
+    padding:0 10px;
+    margin-right: 8px;
+    background-color: transparent;
+    transition: background-color 0.5s ease-in-out;
+}
+.navbar-nav li a{
+    color:rgb(36, 33, 33)!important;
+    font-weight: 700;
+    text-align: center!important;
+}
+.navbar-nav li:hover{
+    border-radius: 3px;
+    background-color:rgb(184, 26, 131);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;   
+}
+.navbar-nav li:hover a{
+    color: rgb(245, 244, 244)!important;
+}
+.fa-bars{
+    color:rgb(17, 15, 15);
+    font-size: 30px!important;
+
+}
+.navbar-toggler{
+    margin-bottom: 10px;
+}
+#banner{
+    background-image: linear-gradient(to right, rgb(158, 27, 158), purple);
+    color:white;
+}
+.promo-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+.fa-play-circle{
+    font-size: 45px;
+    color:white;
+    margin:20px 0;
+ 
+}
+#banner a{
+    color:white;
+    text-decoration: none;
+    display:flex;   
+}
+#banner span{
+    margin:30px;
+}
+.play-text{
+    font-size: 18px;
+    font-weight: 400;
+}
+.bottom-img{
+    width:100%;
+}
+#services{
+    padding:20px 0;
+    position:relative;
+    top:-15px;
+    background-color: white;
+    
+}
+.service-img{
+    width:100px;
+    height:100px;
+}
+.row{
+    padding:20px 0;
+    margin:20px 0!important;
+}
+.services{
+    width: 280px!important;
+    padding:30px 0px;
+    margin:10px 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    transform: translateY(0);
+    transition:transform 0.3s ease-in-out;
+    border-radius: 6px;
+    background-color: white;
+
+}
+.services:hover{
+    border:2px solid lightblue;
+    transform: translateY(-15px);
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.services h1{
+    margin: 15px 0;
+}
+.services-heading{
+    text-align: center;
+    
+}
+.services-heading h1{
+    display: inline-block;
+    border-bottom: 4px solid purple;
+}
