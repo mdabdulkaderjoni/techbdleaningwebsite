@@ -117,7 +117,7 @@ body{
 #services{
     padding:20px 0;
     position:relative;
-    top:-15px;
+    top:-5px;
     background-color: white;
     
 }
@@ -125,7 +125,22 @@ body{
     width:100px;
     height:100px;
 }
-
+#services .btn-primary{
+    padding:12px 28px;
+    border:none;
+    border-radius: 25px;
+    color:black;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: transparent;
+    border:2px solid rgb(43, 165, 247);
+    transition:background-color 0.5s ease-in;
+    
+}
+#services .btn-primary:hover{
+    background-color:rgb(91, 231, 201);
+    color:#2b3130;
+}
 .services{
     width: 280px!important;
     padding:30px 0px;
@@ -135,7 +150,7 @@ body{
     transition:transform 0.3s ease-in-out;
     border-radius: 6px;
     background-color: white;
-
+    height:340px;
 }
 .light-bg-color{
     background-color: rgb(251, 247, 247)!important;
@@ -150,14 +165,64 @@ body{
     margin: 15px 0;
     
 }
-.services-heading{
-    text-align: center;
-    
-}
-.services-heading h1{
+
+.title-h1{
     display: inline-block;
     border-bottom: 6px solid rgb(113, 219, 210);
     border-top: 6px solid rgb(113, 219, 210);
     border-radius: 20%;
     padding:10px 0;
+    text-transform: uppercase;
 }
+.title-text::before{
+    content:'';
+    background-color: rgb(187, 28, 187);
+    height: 15px;
+    width:70px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    transform: translateY(-21px);
+    border-radius: 10px;
+}
+
+.title-text::after{
+    content:'';
+    background-color: rgb(187, 28, 187);
+    height: 15px;
+    width:70px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    transform: translateY(25px);
+    border-radius: 10px;
+}
+
+    /* About Us Section */
+#about-us{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    
+}
+.about-title{
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+
+#about-us ul li{
+    margin: 10px 0;
+    text-align: left;
+    list-style-type: none;
+}
+#about-us ul{
+    margin-left: 10px;
+}
+
+#about-us ul .fa-arrow-alt-circle-right{
+    font-size: 18px;
+    margin-right: 10px;
+    color: rgb(107, 38, 218);
+}
+
+
