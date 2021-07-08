@@ -10,7 +10,7 @@ body{
     position:sticky;
     top:0;
     z-index: 10;
-    
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 .navbar{
     background-image: linear-gradient(to right, #fffeff, #fbfffe);   
@@ -20,7 +20,11 @@ body{
   }
   .nav-logo .fab{
     font-size:25px;
-    color:rgb(158, 27, 158);
+    /* color:rgb(158, 27, 158); */
+    color:rgb(34, 150, 150);
+  }
+  .nav-logo .fab:nth-child(2n) {
+     color:rgb(158, 22, 158)
   }
   .nav-logo .letter{
     font-weight:900;
@@ -46,8 +50,10 @@ body{
 }
 .navbar-nav li a{
     color:rgb(36, 33, 33)!important;
-    font-weight: 700;
+    font-weight: 600;
     text-align: center!important;
+    font-size: 18px;
+    letter-spacing:0.8px;
 }
 .navbar-nav li:hover{
     border-radius: 3px;
@@ -66,7 +72,8 @@ body{
     margin-bottom: 10px;
 }
 #banner{
-    background-image: linear-gradient(to right, rgb(158, 27, 158), purple);
+    /* background-image: linear-gradient(to right, rgb(158, 27, 158), purple); */
+    background-image: linear-gradient(to right, rgb(92, 211, 211), rgb(43, 167, 180));
     color:white;
 }
 .promo-title{
@@ -106,10 +113,7 @@ body{
     width:100px;
     height:100px;
 }
-.row{
-    padding:20px 0;
-    margin:20px 0!important;
-}
+
 .services{
     width: 280px!important;
     padding:30px 0px;
@@ -129,6 +133,7 @@ body{
 }
 .services h1{
     margin: 15px 0;
+    
 }
 .services-heading{
     text-align: center;
@@ -136,5 +141,8 @@ body{
 }
 .services-heading h1{
     display: inline-block;
-    border-bottom: 4px solid purple;
+    border-bottom: 6px solid rgb(113, 219, 210);
+    border-top: 6px solid rgb(113, 219, 210);
+    border-radius: 20%;
+    padding:10px 0;
 }
