@@ -2,10 +2,15 @@
     margin:0;
     padding:0;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: sans-serif;
 }
 
+
+                 /* Navar-Seciton */
 #nav-bar{
     position:sticky;
     top:0;
@@ -71,6 +76,9 @@ body{
 .navbar-toggler{
     margin-bottom: 10px;
 }
+
+               /* Heading-Section */
+
 #banner{
     /* background-image: linear-gradient(to right, rgb(158, 27, 158), purple); */
     background-image: linear-gradient(to right, rgb(92, 211, 211), rgb(43, 167, 180));
@@ -102,6 +110,10 @@ body{
 .bottom-img{
     width:100%;
 }
+
+
+               /* Services-Section */
+
 #services{
     padding:20px 0;
     position:relative;
@@ -124,6 +136,9 @@ body{
     border-radius: 6px;
     background-color: white;
 
+}
+.light-bg-color{
+    background-color: rgb(251, 247, 247)!important;
 }
 .services:hover{
     border:2px solid lightblue;
