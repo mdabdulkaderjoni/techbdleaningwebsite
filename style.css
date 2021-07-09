@@ -238,7 +238,7 @@ body{
     border-radius: 50%;
 }
 .testimonial-img{
- 
+    height: 100px;
     width: 100px;
 }
 .testimonials p{
