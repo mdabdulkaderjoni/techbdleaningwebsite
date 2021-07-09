@@ -235,11 +235,14 @@ body{
 .testimonials img{
     height: 100%;
     width: 100%;
+    border:2px solid white;
     border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 .testimonial-img{
     height: 100px;
     width: 100px;
+    
 }
 .testimonials p{
     text-align: left;
