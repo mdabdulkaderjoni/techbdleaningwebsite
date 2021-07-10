@@ -119,6 +119,7 @@ body{
     position:relative;
     top:-5px;
     background-color: white;
+
     
 }
 .service-img{
@@ -143,22 +144,21 @@ body{
 .services{
     width: 280px!important;
     padding:30px 0px;
-    margin:10px 0;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-    transform: translateY(0);
-    transition:transform 0.3s ease-in-out;
     border-radius: 6px;
     background-color: white;
     height:340px;
+    margin-bottom: 10px;
 }
 .light-bg-color{
     background-color: rgb(251, 247, 247)!important;
 }
 .services:hover{
     border:2px solid lightblue;
-    transform: translateY(-15px);
     cursor: pointer;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    background-color: aquamarine;
+    color:white;
 }
 .services h1{
     margin: 15px 0;
@@ -202,12 +202,22 @@ body{
 #about-us{
     padding-bottom: 50px;
     padding-top: 50px;
-    height: 600px;
+
 
 }
 .about-us{
     border:1px solid rgb(214, 203, 203);
     border-radius: 4px;
+    width:500px!important;
+    height: 320px;
+}
+.about-us:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    background-color: white;
+}
+.about-us img{
+    height: 100%;
+    width: 100%;
 }
 .about-title{
     font-size: 35px;
@@ -243,11 +253,10 @@ body{
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
     border-radius: 5px;
     transform: translateY(0);
-    transition:border-color 0.5s ease-in-out, transform 0.5s ease-in-out;
+
 }
 .testimonials:hover{
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-    transform: translateY(10px);
     border-color: purple;
 }
 .testimonials img{
