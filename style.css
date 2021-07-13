@@ -243,7 +243,7 @@ body{
 /*-------Testimonials Section-----*/
 
 #testimonials{
-    height:600px;
+    
 }
 .testimonials{
     cursor: pointer;
@@ -284,6 +284,7 @@ body{
 #social-media{
     background-color: #f8f9fa;
     padding: 100px 0;
+    border:2px solid black;
 }
 #social-media p{
     font-size: 36px;
@@ -394,4 +395,11 @@ hr{
     margin-bottom: 0;
     padding-bottom: 20px;
     text-align: center;
+}
+
+@media screen only (max-width:770px){
+
+#testimonials{
+height:auto;
+}
 }
